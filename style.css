@@ -1,0 +1,28 @@
+button {
+  display: block;
+  margin: 20px auto;
+  background: #bbe4e9;
+  color: #407088;
+  font-size: 17px;
+  font-family: "Cormorant Garamond", serif;
+  padding: 17.92px 29.92px;
+  border: 1.5px solid #53a8b6;
+  border-radius: 2em;
+  box-shadow: 5px 2px 2px rgba(122, 159, 177, 0.5);
+  transition: all 200ms ease-in-out;
+  font-weight: bolder;
+}
+
+button:hover {
+  color: #212529;
+  background: radial-gradient
+    (905px at 4.9% 85.8%, rgb(255, 243, 242) 0.1%, rgb(255, 247, 220) 57.6%);
+  opacity: 0.9;
+  cursor: pointer;
+}
+p {
+  text-align: center;
+  margin: 20px auto;
+  font-size: 30px;
+  font-family: "Cormorant Garamond", serif;
+}
